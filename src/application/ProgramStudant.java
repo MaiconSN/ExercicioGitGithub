@@ -21,16 +21,8 @@ public class ProgramStudant {
 		student1.nota2 = sc.nextDouble();
 		student1.nota3 = sc.nextDouble();
 		
-		System.out.println("Resultado:");
-		double media = student1.notaFinal() - 60.00;
-		if (student1.notaFinal() >= 60.00) {
-			System.out.println("NOTA FINAL = %.2f" + student1.notaFinal() + "\nPASS"); 
-		}
-		else {
-			System.out.println("NOTA FINAL = " + student1.notaFinal() + "\nFAILED \nFALTARAM " + Math.abs(media) +  " PONTOS");
-			
-		}
 		
+		System.out.println(student1);
 		
 		
 		sc.close();
