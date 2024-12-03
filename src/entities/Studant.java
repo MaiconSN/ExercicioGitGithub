@@ -17,11 +17,11 @@ public class Studant {
 		media = notaFinal() - 60.00;
 		
 		if (notaFinal() >= 60.00) {
+
 			aviso =  "\nNOME DO ESTUDANTE: %s%n" + this.name + "NOTA FINAL = %.2f" + notaFinal() + "\nPASS";
 		}
 		else {
 			aviso = "\nNOME DO ESTUDANTE: %s%n" + this.name + "NOTA FINAL = " + notaFinal() + "\nFAILED \nFALTARAM " + Math.abs(media) +  " PONTOS";
-			
 		}
 		
 		return aviso;
